@@ -246,5 +246,8 @@ main .section.highlight {
 main .section.blogpost .default-content-wrapper {
   margin-left: 10%;
   margin-right: 10%;
+}
 
+main .section.fragment-container.author .default-content-wrapper {
+  background-color: #222222;
 }
