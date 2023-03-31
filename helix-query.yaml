@@ -28,6 +28,9 @@ indices:
       description:
         select: head > meta[name="description"]
         value: attribute(el, "content")
+      date:
+        select: head > meta[name="publication-date"]
+        value: parseTimestamp(attribute(el, "content"), "MM/DD/YYYY")        
   authors:
     include:
       - /authors/**
