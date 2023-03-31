@@ -15,7 +15,7 @@
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: #fff;
-  --overlay-background-color: #eee;
+  --overlay-background-color: #0d3545;
   --highlight-background-color: #ccc;
   --text-color: #656f72;
 
@@ -48,7 +48,7 @@
     --heading-font-size-xl: 22px;
     --heading-font-size-l: 18px;
     --heading-font-size-m: 30px;
-    --heading-font-size-s: 24px;
+    --heading-font-size-s: 14px;
     --heading-font-size-xs: 22px;
   }
 }
@@ -246,5 +246,8 @@ main .section.highlight {
 main .section.blogpost .default-content-wrapper {
   margin-left: 10%;
   margin-right: 10%;
+}
 
+main .section.fragment-container.author .default-content-wrapper {
+  background-color: #222;
 }

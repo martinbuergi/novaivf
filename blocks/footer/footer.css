@@ -2,6 +2,10 @@ footer {
   padding: 2rem;
   background-color: var(--overlay-background-color);
   font-size: var(--body-font-size-s);
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-family: var(--body-font-family);
 }
 
 footer .footer {
