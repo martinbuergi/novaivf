@@ -3,7 +3,6 @@ footer {
   background-color: var(--overlay-background-color);
   font-size: var(--body-font-size-s);
   text-align: center;
-  font-size: 14px;
   line-height: 30px;
   color: white;
   font-family: var(--body-font-family);

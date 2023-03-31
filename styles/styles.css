@@ -48,7 +48,7 @@
     --heading-font-size-xl: 22px;
     --heading-font-size-l: 18px;
     --heading-font-size-m: 30px;
-    --heading-font-size-s: 24px;
+    --heading-font-size-s: 14px;
     --heading-font-size-xs: 22px;
   }
 }
@@ -249,5 +249,5 @@ main .section.blogpost .default-content-wrapper {
 }
 
 main .section.fragment-container.author .default-content-wrapper {
-  background-color: #222222;
+  background-color: #222;
 }
