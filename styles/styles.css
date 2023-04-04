@@ -30,7 +30,7 @@
   --body-font-size-xs: 16px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 48;
+  --heading-font-size-xxl: 48px;
   --heading-font-size-xl: 22px;
   --heading-font-size-l: 18px;
   --heading-font-size-m: 30px;
@@ -44,7 +44,7 @@
 
 @media (min-width: 900px) {
   :root {
-    --heading-font-size-xxl: 48;
+    --heading-font-size-xxl: 48px;
     --heading-font-size-xl: 22px;
     --heading-font-size-l: 18px;
     --heading-font-size-m: 30px;
