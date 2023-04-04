@@ -243,11 +243,7 @@ main .section.highlight {
   background-color: var(--highlight-background-color);
 }
 
-main .section.blogpost .default-content-wrapper {
+main .section.blogpost {
   margin-left: 10%;
   margin-right: 10%;
-}
-
-main .section.fragment-container.author .default-content-wrapper {
-  background-color: #222;
 }

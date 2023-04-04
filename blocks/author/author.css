@@ -1,1 +1,38 @@
-/* block specific CSS goes here */
+.author {
+    margin-top: 50px;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    position: relative;
+}
+
+.author-tag {
+    font: 16px/100% "open_sansbold", arial, sans-serif;
+    color: #999;
+    position: absolute;
+    top: -9px;
+    background: #fff;
+    padding: 0 30px 0 0;
+}
+
+.author-name {
+    font: 24px/130% "open_sansregular", arial, sans-serif;
+    color: #555;    
+}
+
+.author-description {
+    font: 15px/150% "open_sanslight", arial, sans-serif;
+    color: #6c6c6c;
+}
+
+.author-img-container {
+    display: flex;
+}
+
+.author-img {
+    align-self: center;
+}
+
+.author img {
+    border-radius: 50%;
+    margin-right: 140px;
+}
