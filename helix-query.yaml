@@ -54,7 +54,7 @@ indices:
       - /blog/**
     target: /blog-index.json
     properties:
-    lastModified:
+      lastModified:
         select: none
         value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
       title:
