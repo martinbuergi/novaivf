@@ -12,6 +12,9 @@ main .hero {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main .hero h1 {

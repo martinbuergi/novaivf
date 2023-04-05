@@ -30,7 +30,7 @@
   --body-font-size-xs: 16px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 48;
+  --heading-font-size-xxl: 48px;
   --heading-font-size-xl: 22px;
   --heading-font-size-l: 18px;
   --heading-font-size-m: 30px;
@@ -44,7 +44,7 @@
 
 @media (min-width: 900px) {
   :root {
-    --heading-font-size-xxl: 48;
+    --heading-font-size-xxl: 48px;
     --heading-font-size-xl: 22px;
     --heading-font-size-l: 18px;
     --heading-font-size-m: 30px;
@@ -82,7 +82,7 @@ h4, h5, h6 {
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
-h1 { font-size: var(--heading-font-size-xxl);font-family: var(--heading-font-family)}
+h1 { font-size: var(--heading-font-size-xxl);font-family: var(--heading-font-family); text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);text-align: center;}
 h2 { font-size: var(--heading-font-size-xl) }
 h3 { font-size: var(--heading-font-size-l);font-style: italic; }
 h4 { font-size: var(--heading-font-size-m) }
